@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<<<<<<< HEAD
+
     <!-- SCROLL TOP BUTTON -->
     <a class="scrollToTop" href="#"></a>
     <!-- END SCROLL TOP BUTTON -->
@@ -113,56 +113,57 @@
                 <a class="see_all" href="#">See All</a>
              </div>
           </div>
-          <div class="panel panel-default">
-            <div class="panel-heading">Panel Heading</div>
-            <div class="panel-body">
-              <ul class="news_tab">
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="news_img" href="#">
-                          <img class="media-object" src="src/image/news.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                       <a href="#">Dummy text of the printing and typesetting industry</a>
-                       <span class="feed_date">27.02.15</span>
-                      </div>
-                    </div>                    
-                  </li>
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="news_img" href="#">
-                          <img class="media-object" src="src/image/news.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                       <a href="#">Dummy text of the printing and typesetting industry</a>
-                       <span class="feed_date">28.02.15</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="news_img" href="#">
-                          <img class="media-object" src="src/image/news.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                       <a href="#">Dummy text of the printing and typesetting industry</a>
-                       <span class="feed_date">28.02.15</span>
-                      </div>
-                    </div>
-                  </li>
-                </ul>                
-                <a class="see_all" href="#">See All</a>
-            </div>
-          </div>
+          {{--<div class="panel panel-default">--}}
+            {{--<div class="panel-heading">Panel Heading</div>--}}
+            {{--<div class="panel-body">--}}
+              {{--<ul class="news_tab">--}}
+                  {{--<li>--}}
+                    {{--<div class="media">--}}
+                      {{--<div class="media-left">--}}
+                        {{--<a class="news_img" href="#">--}}
+                          {{--<img class="media-object" src="src/image/news.jpg" alt="img">--}}
+                        {{--</a>--}}
+                      {{--</div>--}}
+                      {{--<div class="media-body">--}}
+                       {{--<a href="#">Dummy text of the printing and typesetting industry</a>--}}
+                       {{--<span class="feed_date">27.02.15</span>--}}
+                      {{--</div>--}}
+                    {{--</div>                    --}}
+                  {{--</li>--}}
+                  {{--<li>--}}
+                    {{--<div class="media">--}}
+                      {{--<div class="media-left">--}}
+                        {{--<a class="news_img" href="#">--}}
+                          {{--<img class="media-object" src="src/image/news.jpg" alt="img">--}}
+                        {{--</a>--}}
+                      {{--</div>--}}
+                      {{--<div class="media-body">--}}
+                       {{--<a href="#">Dummy text of the printing and typesetting industry</a>--}}
+                       {{--<span class="feed_date">28.02.15</span>--}}
+                      {{--</div>--}}
+                    {{--</div>--}}
+                  {{--</li>--}}
+                  {{--<li>--}}
+                    {{--<div class="media">--}}
+                      {{--<div class="media-left">--}}
+                        {{--<a class="news_img" href="#">--}}
+                          {{--<img class="media-object" src="src/image/news.jpg" alt="img">--}}
+                        {{--</a>--}}
+                      {{--</div>--}}
+                      {{--<div class="media-body">--}}
+                       {{--<a href="#">Dummy text of the printing and typesetting industry</a>--}}
+                       {{--<span class="feed_date">28.02.15</span>--}}
+                      {{--</div>--}}
+                    {{--</div>--}}
+                  {{--</li>--}}
+                {{--</ul>                --}}
+                {{--<a class="see_all" href="#">See All</a>--}}
+            {{--</div>--}}
+          {{--</div>--}}
         </div>
       </div>
       </div>
     </section>
     <!--=========== END ABOUT US SECTION ================-->
+@endsection
 

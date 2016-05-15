@@ -66,8 +66,9 @@ class TeacherController extends Controller {
     $user->roles = "teacher";
     $teacher->users()->save($user);
 
-    return "data has been saved successfully in teacher table and also in user table";
+//    return "data has been saved successfully in teacher table and also in user table";
 
+    return view('admin.home');
    //return "data has been uploaded successfully";
     //return $this->create()->with('success', 'Image Uploaded Successfully');
   }

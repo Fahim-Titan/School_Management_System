@@ -55,7 +55,7 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-                        <li><a href="create_teacher">Add Teacher</a></li>
+                        <li><a href="{{url('create_teacher')}}">Add Teacher</a></li>
                         <li><a href="create_student">Add Student</a></li>
                         <li><a href="create_subject">Add Subject</a></li>
                         <li><a href="create_course">Add Course</a></li>

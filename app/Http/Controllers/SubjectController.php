@@ -37,8 +37,9 @@ class SubjectController extends Controller {
       $subject->credit = $request->credit;
 
       $subject->save();
-    return  "data has been saved successfully";
+//    return  "data has been saved successfully";
 //      return view('teacher');
+    return view('admin.home');
   }
 
   /**

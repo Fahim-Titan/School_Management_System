@@ -57,7 +57,7 @@ class AdminController extends Controller {
     $user->roles = "admin";
     $admin->users()->save($user);
 
-    return "data has been saved successfully";
+    return view('admin.home');
   }
 
   /**

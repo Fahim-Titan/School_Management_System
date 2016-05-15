@@ -1,4 +1,5 @@
 <?php namespace App\Http\Controllers;
+//use App\Admin;
 use App\Notice;
 use Carbon\Carbon;
 use App\Http\Requests;
@@ -32,11 +33,12 @@ class NoticeController extends Controller {
    */
   public function store(Requests\CreateNoticeRequest $request)
   {
+//    $admin = new Admin();
     $notice = new Notice();
     $notice->n_data=$request->n_data;
     $notice->date = $request->date;
     $notice->save();
-    return "data saved";
+    return view('admin.home');
   }
 
   /**
@@ -47,7 +49,7 @@ class NoticeController extends Controller {
    */
   public function show($id)
   {
-    
+     return view('admin.home');
   }
 
   /**
