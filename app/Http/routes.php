@@ -64,3 +64,10 @@ Route::get('create_subject','SubjectController@create');
 
 
 Route::get('create_admin','AdminController@create');
+
+
+
+##teacher's links
+
+Route::get('/show_lectures','LectureController@show_lecture');
+

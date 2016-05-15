@@ -20,7 +20,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="{{url('/')}}">Home</a></li>
                 <li><a href="{{url('/teacher_list')}}">Teacher List</a></li>
                 <li><a href="{{url('/course_list')}}">Course</a></li>
                 <!-- <li><a href="scholarship.html">Scholarship</a></li> -->

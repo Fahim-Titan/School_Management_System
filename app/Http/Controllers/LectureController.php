@@ -92,7 +92,14 @@ class LectureController extends Controller {
   {
     
   }
-  
+
+  public function show_lecture()
+  {
+    $lectures = new Lecture();
+    $lectures = Lecture::all();
+    return view('teacher.lectures_list',compact('lectures'));
+  }
+
 }
 
 ?>
