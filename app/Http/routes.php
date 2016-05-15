@@ -43,6 +43,14 @@ Route::get('/dashboard','HomeController@dashboard');
 Route::get('/upload_lecture','TeacherController@upload_lecture');
 
 
+##links for everyone
+Route::get('/teacher_list','TeacherController@teacher_list');
+Route::get('/course_list','CourseController@course_list');
+Route::get('/notices','NoticeController@notice_list');
+Route::get('/contact',function(){
+	return view('local.contact');
+});
+
 
 
 ## admin links

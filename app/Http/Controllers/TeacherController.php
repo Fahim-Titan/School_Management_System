@@ -122,6 +122,12 @@ class TeacherController extends Controller {
   {
     
   }
+
+  public function teacher_list()
+  {
+    $teacher = Teacher::all();
+    return view('local.teacher_list',compact('teacher'));
+  }
   
 }
 

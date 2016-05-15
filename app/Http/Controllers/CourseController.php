@@ -110,6 +110,12 @@ class CourseController extends Controller {
   {
     
   }
+
+  public function course_list()
+  {
+    $courses=Course::all();
+    return view('local.course_list',compact('courses'));
+  }
   
 }
 

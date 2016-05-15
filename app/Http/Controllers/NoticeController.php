@@ -1,5 +1,8 @@
 <?php namespace App\Http\Controllers;
-
+use App\Notice;
+use Carbon\Carbon;
+use App\Http\Requests;
+use Illuminate\Support\Facades\Input;
 class NoticeController extends Controller {
 
   /**
@@ -27,9 +30,13 @@ class NoticeController extends Controller {
    *
    * @return Response
    */
-  public function store()
+  public function store(Requests\CreateNoticeRequest $request)
   {
-    return "stored";
+    $notice = new Notice();
+    $notice->n_data=$request->n_data;
+    $notice->date = $request->date;
+    $notice->save();
+    return "data saved";
   }
 
   /**
@@ -74,6 +81,12 @@ class NoticeController extends Controller {
   public function destroy($id)
   {
     
+  }
+
+  public function notice_list()
+  {
+    $notices = Notice::all();
+    return view('local.notice_list',compact('notices'));
   }
   
 }

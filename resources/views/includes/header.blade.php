@@ -21,11 +21,11 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Teacher List</a></li>
-                <li><a href="#">Course</a></li>
+                <li><a href="{{url('/teacher_list')}}">Teacher List</a></li>
+                <li><a href="{{url('/course_list')}}">Course</a></li>
                 <!-- <li><a href="scholarship.html">Scholarship</a></li> -->
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Notices</a></li>                
+                {{--<li><a href="#">Events</a></li>--}}
+                <li><a href="{{url('notices')}}">Notices</a></li>
                 <!-- <li><a href="blog-archive.html">Blog</a></li> -->
               <!--  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Page<span class="caret"></span></a>
@@ -35,7 +35,7 @@
                     <li><a href="#">Link Three</a></li>               
                   </ul>
                 </li>  -->             
-                <li><a href="#">Contact</a></li>
+                <li><a href="{{url('contact')}}">Contact</a></li>
                 <li><a href="{{url('home')}}">Login</a></li>
               </ul>           
             </div><!--/.nav-collapse -->
