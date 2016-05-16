@@ -8,8 +8,8 @@
                     <div class="panel-heading">Dashboard</div>
 
                     <div class="panel-body">
-                        this is a admin's page
-
+                        this is a admin's page<br>
+                        {{$confirm or ''}}
 
                     </div>
                 </div>

@@ -64,8 +64,8 @@ class CourseController extends Controller {
       $course->t_id14 = $request->t_id14;
 
       $course->save();
-//      return "data has been saved";
-    return view('admin.home');
+      $confirm =  "course data has been saved";
+    return view('admin.home',compact('confirm'));
   }
 
   /**
